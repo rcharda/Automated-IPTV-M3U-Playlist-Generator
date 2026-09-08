@@ -1,11 +1,11 @@
 # config.yml
 settings:
-  concurrency: 50 # Grande vitesse de traitement
-  fetchTimeout: 5000 # Temps d'attente augmenté pour la récupération
-  linkCheckTimeout: 3000 
-  batchSize: 100 
+  concurrency: 60            # Vitesse maximale de traitement simultané
+  fetchTimeout: 8000         # Augmentation du délai d'attente pour éviter les coupures
+  linkCheckTimeout: 4000     
+  batchSize: 150             
   outputDirPrefix: LiveTV
-  channelsPerPage: 99000 # Permet de tout mettre dans un seul fichier sans coupure
+  channelsPerPage: 100000    # Met la totalité absolue des chaînes mondiales dans un seul fichier .m3u
 
 urls:
   - https://vavoo.to
