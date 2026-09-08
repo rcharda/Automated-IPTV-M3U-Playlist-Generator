@@ -1,13 +1,11 @@
 # config.yml
 settings:
-  concurrency: 50  # High concurrency for faster processing
-  fetchTimeout: 3000  # Timeout for fetching M3U files
-  linkCheckTimeout: 9000  # Timeout for checking link activity
-  batchSize: 100  # Number of links to check in a single batch
-  outputDirPrefix: SpecialLinks  # Base name for output directories/files
-  channelsPerFile: 9000  # Maximum number of channels per file
+  concurrency: 50 # Grande vitesse de traitement
+  fetchTimeout: 5000 # Temps d'attente augmenté pour la récupération
+  linkCheckTimeout: 3000 
+  batchSize: 100 
+  outputDirPrefix: LiveTV
+  channelsPerPage: 99000 # Permet de tout mettre dans un seul fichier sans coupure
 
 urls:
-- http://MyWebsitezzz.net
-
-  # Add more URLs here (up to 100)
+  - https://vavoo.to
