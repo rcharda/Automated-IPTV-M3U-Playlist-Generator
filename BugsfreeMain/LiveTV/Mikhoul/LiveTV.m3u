@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
 <title>VAVOO.TO</title>
-<link rel="stylesheet" href="/vuma/faa3178a44c843b8/style.css">
+<link rel="stylesheet" href="/vuma/23ad985f42244045/style.css">
 <link rel="icon" href="https://img.icons8.com/color/452/pizza.png">
 <meta name="theme-color" content="#1A1F26">
 <meta name="mhub" content="app dpad">
@@ -18,7 +18,7 @@
   </div>
 </div>
 <script type="module">
-  import { mount } from "/vuma/faa3178a44c843b8/app.js";
+  import { mount } from "/vuma/23ad985f42244045/app.js";
   mount({
     addons: [new URL("/", location.href).href],
     addonManager: "hidden",
