@@ -22,7 +22,7 @@
   mount({
     addons: [new URL("/", location.href).href],
     addonManager: "hidden",
-    links: [{"id":"vavoo","name":"VAVOO.TO","icon":"https://img.icons8.com/color/452/pizza.png","endpoints":["/","https://www.vavoo.to","https://www.geil.to"]}],
+    links: [{"id":"vavoo","name":"VAVOO.TO","icon":"https://img.icons8.com/color/452/pizza.png","endpoints":["/","https://www.vavoo.to","https://www.geil.to","https://www.geil.app","https://www.geil.win"]}],
     brand: {
       name: "VAVOO.TO",
       logo: "https://img.icons8.com/color/452/pizza.png",
