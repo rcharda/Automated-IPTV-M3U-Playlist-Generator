@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
 <title>GEIL.TO</title>
-<link rel="stylesheet" href="/vuma/a51e25663e9f164d/style.css">
+<link rel="stylesheet" href="/vuma/6010a7d000b1c701/style.css">
 <link rel="icon" href="https://img.icons8.com/color/452/fire-element.png">
 <meta name="theme-color" content="#1A1F26">
 <meta name="mhub" content="app dpad">
@@ -18,7 +18,7 @@
   </div>
 </div>
 <script type="module">
-  import { mount } from "/vuma/a51e25663e9f164d/app.js";
+  import { mount } from "/vuma/6010a7d000b1c701/app.js";
   mount({
     addons: [new URL("/", location.href).href],
     addonManager: "hidden",
